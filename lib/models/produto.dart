@@ -2,6 +2,7 @@ class Produto {
   final String id;
   final String titulo;
   final String descricao;
+  final String urlImagem;
   final double valor;
   bool favorito;
 
@@ -10,6 +11,7 @@ class Produto {
     required this.titulo,
     required this.descricao,
     required this.valor,
-    required this.favorito,
+    required this.urlImagem,
+    this.favorito = false,
   });
 }
